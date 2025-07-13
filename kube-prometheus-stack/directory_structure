@@ -1,0 +1,45 @@
+
+
+
+C:\USERS\ADMIN\DESKTOP\DEVOPS\HELM\GRAFANA-HELM-GITOPS
+└───kube-prometheus-stack
+    ├───Charts
+    │   ├───crds
+    │   │   ├───crds
+    │   │   ├───files
+    │   │   └───templates
+    │   │       └───upgrade
+    │   ├───grafana
+    │   │   ├───ci
+    │   │   ├───dashboards
+    │   │   └───templates
+    │   │       └───tests
+    │   ├───kube-state-metrics
+    │   │   └───templates
+    │   ├───prometheus-node-exporter
+    │   │   └───templates
+    │   └───prometheus-windows-exporter
+    │       └───templates
+    └───templates
+        ├───alertmanager
+        ├───exporters
+        │   ├───core-dns
+        │   ├───kube-api-server
+        │   ├───kube-controller-manager
+        │   ├───kube-dns
+        │   ├───kube-etcd
+        │   ├───kube-proxy
+        │   ├───kube-scheduler
+        │   └───kubelet
+        ├───grafana
+        │   └───dashboards-1.14
+        ├───prometheus
+        │   └───rules-1.14
+        ├───prometheus-operator
+        │   └───admission-webhooks
+        │       ├───deployment
+        │       └───job-patch
+        └───thanos-ruler
+
+
+
