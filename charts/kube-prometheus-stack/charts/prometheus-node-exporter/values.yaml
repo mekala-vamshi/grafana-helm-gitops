@@ -126,7 +126,7 @@ service:
   clusterIP: ""
   ## Default service port. Sets the port of the exposed container as well (NE or kubeRBACProxy).
   ## Use "servicePort" below if changing the service port only is desired.
-  port: 9100
+  port: 9101
   ## Service port. Use this field if you wish to set a different service port
   ## without changing the container port ("port" above).
   servicePort: ""
